@@ -1,0 +1,111 @@
+
+#body
+{
+  background-color: #000015;
+}
+
+.text
+{
+  position: relative;
+  bottom: 65px;
+  font-family: "Georgia", serif;
+  color: white;
+  font-size: 350%;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+#left
+{
+  height: 200px;
+  width: 350px;
+  position: relative;
+  left: 30px;
+  top:30px;
+  border-style: solid;
+  border-color: #000015;
+}
+
+#homescore
+{
+  font-size: 1000%;
+  position: relative;
+  bottom: 262px;
+}
+
+#right
+{
+  height: 200px;
+  width: 350px;
+  position: relative;
+  left:980px;
+  bottom: 360px;
+  border-style: solid;
+  border-color: #000015;
+}
+
+#awayscore
+{
+  font-size: 1000%;
+  position: relative;
+  bottom: 262px;
+}
+
+#centre1
+{
+  width: 550px;
+  height:180px;
+  border-style: solid;
+  border-color: #7B9095;
+  position: relative;
+  top:50px;
+  left:400px;
+}
+
+#time
+{
+  font-size: 1100%;
+  position: relative;
+  bottom: 200px;
+}
+
+#goalimg
+{
+  display: none;
+  transform: scale(0.01,0.01);
+  position: relative;
+  left:500px;
+  bottom: 80px;
+}
+
+#leftlogo
+{
+  position: relative;
+  height: 180px;
+  width: 200px;
+  bottom: 120px;
+}
+
+#leftlogo
+{
+  position: fixed;
+  top:270px;
+  left: 90px;
+  transform: scale(1.1,1.1);
+}
+
+#rightlogo
+{
+  position: fixed;
+  top: 120px;
+  right: -70px;
+  transform: scale(0.42,0.42);
+}
+
+#credittext
+{
+  position: fixed;
+  bottom: 5px;
+  right: 5px;
+  color: white;
+}

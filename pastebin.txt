@@ -1,0 +1,10 @@
+function GOAL(x)
+{
+  var c = document.getElementById("animarea");
+  var ctx = c.getContext("2d");
+
+  ctx.font="600 50px Georgia";
+  ctx.fillStyle = "#FFFFFF";
+  ctx.fillText("GOAL!",'x',80);
+  }
+}
